@@ -1,0 +1,23 @@
+Standard for encoding and decoding an object
+
+There are four sections, separated by semicolons. 
+
+Flags are defined first, separated by commas. The section of flags ends with a semicolon. 
+Attributes are defined second. The attribute name comes first, followed by a colon, followed by the value. 
+The section of attributes ends with a semicolon.
+
+Types are defined third, simply write the type or types you wish to set to the object. The section of types ends with a semicolon. 
+Children are defined fourth, inside brackets "[]". Brackets must always be present, even if the object has no children.
+End entire object definition with a semicolon.
+
+Example: 
+The following defines an object that has the flags "invisible" and "exists". Then comes a semicolon, to show that the flags section has ended.
+It has the attribute "color", which has the value "red". Then comes a semicolon, to show to show that the attributes section has ended. 
+The object has the types "car" and "electric", followed by a semicolon to show that the types section has ended. Then within brackets the child node
+is defined. The child has no flags, a semicolon is still used to show that the flags section is left empty. The child has the attribute "color" with 
+the value "yellow". The child has no children, so the brackets are left empty. 
+
+invisible,exists;color:red;car,electric;[;color:yellow;car;[];];
+
+The following characters have special meaning and are reserved: , ; [] :
+To escape a reserved character's special meaning, preface it with \ 

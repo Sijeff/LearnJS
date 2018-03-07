@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<car visible="true" value="134">
+    <car functional="true" color="black">
+        <boat visible="false" value="456"\>
+    </car>
+</car>
