@@ -4,20 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
     <title>The mystery of the strange deer</title>
 </head>
 
 <body>
     <div class="container">
-        <header>The mysterious deer</header>
-        <p>
+        <header>
+            <h1>The mysterious deer</h1>
+        </header>
+        <div id="ucdiv">
+            <img id="uc" src="images/underconstruction.gif" alt="">
+            <p id="uctext">Under construction</p>
+            <img id="uc" src="images/underconstruction.gif" alt="">
+        </div>
+        <h2>
             <strong>Welcome, stranger, do you dare enter my realm?</strong>
-        </p>
+        </h2>
 
         <img src="images/deerhello.jfif" alt="this great deer" title="a deer">
-        <p>A majestic deer approaches, you can go left or right</p>
+        <h3>A majestic deer approaches, you can go left or right</h3>
 
-        <ul>
+        <ul id="links">
             <li>
                 <a href="page2.html">I dare, and choose to go left</a>
             </li>
@@ -32,8 +41,9 @@
 
         <footer>
             <p>Made by:
-                <a href="https://github.com/Sijeff">Simon Pellijeff</a>
+                <a href="https://github.com/Sijeff">Simon Pellijeff. </a>
             </p>
+            <p id="counter">Visitors: 0</p>
         </footer>
     </div>
 </body>
