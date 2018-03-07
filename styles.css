@@ -1,11 +1,9 @@
-html {
-    background: repeating-linear-gradient(
-         25deg,
-        #606dbc,
-         #606dbc 120px,
-        #465298 150px,
-        #465298 200px
-    );
+html { 
+        background: url(images/bg.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 
 h1 {
