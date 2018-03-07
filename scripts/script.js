@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     var counter = getRandomInt(190000);
 
 
@@ -6,5 +6,5 @@ $(document).ready(function(){
 
     function getRandomInt(max) {
         return Math.floor(Math.random() * Math.floor(max));
-      }
+    }
 });
