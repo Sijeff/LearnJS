@@ -1,5 +1,11 @@
-body {
-    background: gray;
+html {
+    background: repeating-linear-gradient(
+         25deg,
+        #606dbc,
+         #606dbc 120px,
+        #465298 150px,
+        #465298 200px
+    );
 }
 
 h1 {
@@ -32,15 +38,21 @@ h3 {
     white-space: nowrap;
 }
 
-#ucdiv > * {
+#ucdiv > *{
     display: inline-block;
 }
 
-a {
-    color: red;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration-style: dashed;
-    font-size: 1em;
+a:link, a:visited {
+    background-color: #e06715;
+    color: white;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: red;
 }
 
 ul {
@@ -50,6 +62,5 @@ ul {
 .container {
     margin: auto;
     width: 50%;
-    border: 2p dotted red;
     padding: 5px;
-}
+}   
