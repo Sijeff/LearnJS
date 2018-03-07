@@ -5,3 +5,14 @@ p {
 a{
     color: red;
 }
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    border: 2p dotted red;
+    padding: 10px;
+}
