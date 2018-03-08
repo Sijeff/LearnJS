@@ -1,0 +1,36 @@
+@button-color: #df4617;
+@bg-color: rgb(8, 104, 128);
+@text-color: black;
+@icon-size: 50px;
+
+@headings: h1, h2, h3;
+
+body {
+    background-color: @bg-color;
+}
+
+@{headings} {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    color: @button-color;
+}
+
+#ucdiv {
+    white-space: nowrap;
+}
+
+#ucdiv > *{
+    display: inline-block;
+}
+
+#uc {
+    height: @icon-size;
+    width: @icon-size;
+}
+
+.container {
+    margin: auto;
+    width: 75%;
+}

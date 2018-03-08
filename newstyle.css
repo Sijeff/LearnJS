@@ -1,0 +1,23 @@
+body {
+  background-color: #086880;
+}
+h1, h2, h3 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a {
+  color: #df4617;
+}
+#ucdiv {
+  white-space: nowrap;
+}
+#ucdiv > * {
+  display: inline-block;
+}
+#uc {
+  height: 50px;
+  width: 50px;
+}
+.container {
+  margin: auto;
+  width: 75%;
+}
